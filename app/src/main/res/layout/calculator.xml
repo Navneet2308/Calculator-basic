@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/edt1"
+        android:background="@color/white"
+        android:textSize="50dp"
+        ></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/ans"
+        android:textSize="50dp"
+        android:background="@color/white"
+        android:layout_below="@+id/edt1"
+
+        ></TextView>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/one"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/one"
+        android:layout_below="@id/ans"
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/two"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/two"
+        android:layout_below="@id/ans"
+        android:layout_toRightOf="@+id/one"
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/three"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/three"
+        android:layout_below="@id/ans"
+        android:layout_toRightOf="@+id/two"
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/plus"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/plus"
+        android:layout_below="@id/ans"
+ android:layout_alignParentRight="true"
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/four"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/four"
+        android:layout_below="@id/one"
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/five"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/five"
+        android:layout_below="@id/one"
+        android:layout_toRightOf="@+id/four"
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/six"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/six"
+        android:layout_below="@id/one"
+        android:layout_toRightOf="@+id/five"
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/min"
+        android:text="@string/min"
+        android:layout_below="@id/plus"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/seven"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/seven"
+        android:layout_below="@id/four"
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/eight"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/eight"
+        android:layout_below="@id/four"
+        android:layout_toRightOf="@+id/seven"
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/nine"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/nine"
+        android:layout_below="@id/four"
+        android:layout_toRightOf="@+id/eight"
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/multi"
+        android:text="@string/multi"
+        android:layout_below="@id/min"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/zero"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/zero"
+        android:layout_below="@id/seven"
+
+
+        ></Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/dot"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/dot"
+        android:layout_below="@id/seven"
+        android:layout_toRightOf="@+id/zero"
+
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/clear"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/clear"
+        android:layout_below="@id/seven"
+        android:layout_toRightOf="@+id/dot"
+
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/div"
+        android:text="@string/div"
+        android:layout_below="@id/multi"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        ></Button>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/equal"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/equal"
+        android:layout_below="@id/dot"
+
+
+        ></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/back"
+        android:text="@string/back"
+        android:layout_below="@id/div"
+        android:textColor="@color/drkblue"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        ></Button>
+    </RelativeLayout>
+
+</RelativeLayout>
